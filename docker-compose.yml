@@ -1,7 +1,7 @@
 version: '3'
 services: 
   xrayr: 
-    image: crackair/xrayr:latest
+    image: crackair/xrayr:1.4.2
     container_name: HIM
     volumes:
       - ./config.yml:/etc/XrayR/config.yml # 映射配置文件夹
