@@ -7,5 +7,7 @@ services:
       - ./config.yml:/etc/XrayR/config.yml # 映射配置文件夹
       - ./dns.json:/etc/XrayR/dns.json 
       - ./cert:/etc/XrayR/cert
+      - ./custom_outbound.json:/etc/XrayR/custom_outbound.json
+      - ./route.json:/etc/XrayR/route.json
     restart: always
     network_mode: host
