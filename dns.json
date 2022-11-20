@@ -1,0 +1,12 @@
+{
+    "servers": [
+      "8.8.8.8", 
+      {
+        "address": "dnsunlock", // 购买的 DNS 解锁提供的 IP
+        "port": 53,
+        "domains": [
+          "geosite:netflix","geosite:bahamut","geosite:hulu","geosite:hbo","geosite:disney","geosite:bbc","geosite:4chan","geosite:fox","geosite:abema","geosite:dmm","geosite:niconico","geosite:pixiv","geosite:bilibili","geosite:viu"
+        ]
+      }
+    ]
+  }
