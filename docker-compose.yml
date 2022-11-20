@@ -7,5 +7,7 @@ services:
       - ./config.yml:/etc/XrayR/config.yml # 映射配置文件夹
       - ./dns.json:/etc/XrayR/dns.json 
       - ./cert:/etc/XrayR/cert
+      - ./geoip.dat:/etc/XrayR/geoip.dat
+      - ./geosite.dat:/etc/XrayR/geosite.dat
     restart: always
     network_mode: host
