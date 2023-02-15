@@ -18,6 +18,7 @@
           "geosite:niconico",
           "geosite:pixiv",
           "geosite:bilibili",
+          "geosite:openai",
           "geosite:viu"
         ]
       }
