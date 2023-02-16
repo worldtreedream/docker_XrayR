@@ -18,7 +18,7 @@
           "geosite:niconico",
           "geosite:pixiv",
           "geosite:bilibili",
-          "regexp:*\\.openai.*\\.comquot;",
+          "regexp:\\[a-z]+.openai.*\\.comquot;",
           "geosite:viu"
         ]
       }
