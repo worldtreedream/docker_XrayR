@@ -18,7 +18,13 @@
           "geosite:niconico",
           "geosite:pixiv",
           "geosite:bilibili",
-          "regexp:\\[a-z]+.openai.*\\.com",
+          "domain:openai.com",
+          "domain:platform.openai.com",
+          "domain:beta.openai.com",
+          "domain:auth0.openai.com",
+          "domain:auth1.openai.com",
+          "domain:auth2.openai.com",
+          "domain:chat.openai.com",
           "geosite:viu"
         ]
       }
