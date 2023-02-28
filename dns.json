@@ -18,14 +18,20 @@
           "geosite:niconico",
           "geosite:pixiv",
           "geosite:bilibili",
+          "geosite:viu"
+        ]
+      },
+      {
+        "address": "dnsunlock_2",
+        "port": 53,
+        "domains": [
           "domain:openai.com",
           "domain:platform.openai.com",
           "domain:beta.openai.com",
           "domain:auth0.openai.com",
           "domain:auth1.openai.com",
           "domain:auth2.openai.com",
-          "domain:chat.openai.com",
-          "geosite:viu"
+          "domain:chat.openai.com"
         ]
       }
     ]
