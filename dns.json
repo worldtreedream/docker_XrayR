@@ -2,7 +2,7 @@
     "servers": [
       "8.8.8.8", 
       {
-        "address": "dnsunlock",
+        "address": "dnsunlock_1",
         "port": 53,
         "domains": [
           "geosite:netflix",
