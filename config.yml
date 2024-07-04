@@ -16,7 +16,7 @@ Nodes:
   - PanelType: "SSpanel" # Panel type: SSpanel, NewV2board, PMpanel, Proxypanel, V2RaySocks, GoV2Panel, BunPanel
     ApiConfig:
       ApiHost: "http://127.0.0.1:667"
-      ApiKey: "123"
+      ApiKey: "dockerkey"
       NodeID: 41
       NodeType: Trojan # Node type: V2ray,vmess,vless, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
