@@ -31,9 +31,17 @@
           "domain:auth1.openai.com",
           "domain:auth2.openai.com",
           "domain:chat.openai.com",
-        "domain:api.openai.com",
-        "domain:oaistatic.com",
-        "domain:files.oaiusercontent.com"
+          "domain:api.openai.com",
+          "domain:oaistatic.com",
+          "domain:files.oaiusercontent.com"
+        ]
+      },
+      {
+        "address": "146.190.97.183",
+        "port": 53,
+        "domains": [
+          "domain:openai.com",
+          "domain:chatgpt.com"
         ]
       }
     ]
